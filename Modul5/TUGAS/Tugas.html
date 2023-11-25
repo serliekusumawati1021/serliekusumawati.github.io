@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Membuat Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin: auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, select, textarea {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="formulir.html" method="get">
+        <label for="nama">Nama:</label>
+        <input type="text" name="nama" id="nama" value="Nama Kamu" />
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" />
+
+        <label>Jenis Kelamin:</label>
+        <input type="radio" name="jenis_kelamin" value="laki-laki" id="laki-laki" checked />
+        <label for="laki-laki">Laki-laki</label>
+        <input type="radio" name="jenis_kelamin" value="perempuan" id="perempuan" />
+        <label for="perempuan">Perempuan</label>
+
+        <label>Hobi:</label>
+        <input type="checkbox" name="hobi_baca" id="hobi_baca" />
+        <label for="hobi_baca">Membaca Buku</label>
+        <input type="checkbox" name="hobi_nulis" id="hobi_nulis" checked />
+        <label for="hobi_nulis">Menulis</label>
+        <input type="checkbox" name="hobi_mancing" id="hobi_mancing" />
+        <label for="hobi_mancing">Memancing</label>
+
+        <label for="asal_kota">Asal Kota:</label>
+        <select name="asal_kota" id="asal_kota">
+            <option value="Kota Jakarta">Jakarta</option>
+            <option value="Bandung">Bandung</option>
+            <option value="Kota Semarang" selected>Semarang</option>
+        </select>
+
+        <label for="komentar">Komentar Anda:</label>
+        <textarea name="komentar" id="komentar" rows="5" cols="20">Silahkan Katakan Isi Hati Anda</textarea>
+
+        <input type="submit" value="Mulai Proses!">
+    </form>
+</body>
+</html>
