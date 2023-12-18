@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      background-image: url(ghibli.jpg);
+      background-size: cover;
+    }
+    .navbar {
+      overflow: hidden;
+      background-color: rgb(165, 129, 67);
+    }
+    .navbar a {
+      float: left;
+      display: block;
+      color: #f8f7f7;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .navbar a:hover {
+      background-color: #c46e39;
+      color: rgb(174, 119, 82);
+    }
+    .container {
+      width: 80%;
+      margin: 20px auto;
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .profile {
+      text-align: center;
+    }
+    .profile img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .profile h1 {
+      margin: 0;
+      padding: 0;
+      color: #9a4040;
+    }
+    .profile p {
+      margin: 0;
+      padding: 0;
+      color: #9a4040;
+    }
+    .education {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    .education .school {
+      width: 100px;
+      height: 100px;
+      background-color: rgb(209, 162, 79);
+      text-align: center;
+      line-height: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    #min, #smp, #smk {
+      display: block;
+      color: #fff;
+      border: 2px solid #fff;
+      padding: 20px;
+      text-align: center;
+      background-color: rgb(209, 162, 79);
+      margin-top: 20px;
+    }
+  </style>
+  
+  <title>About Me</title>
+</head>
+<body>
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="container">
+    <div class="profile">
+      <img src="me.jpg" alt="Profile Picture">
+      <h1>Serlie Kusumawati</h1> <br>
+
+      <p>Mahasiswa Teknik Informatika</p>
+      <p>Universitas PGRI Madiun</p>
+    </div>
+    <div class="education">
+        <div class="school" data-text="SD"><a href="#sd">SD</a></div>
+        <div class="school" data-text="SMP"><a href="#smp">SMP</a></div>
+        <div class="school" data-text="SMA"><a href="#sma">SMA</a></div>
+    </div>
+    <div id="min">
+        <h2>MIN</h2>
+        <p>Saya bersekolah di Madrasah Ibtidaiyah Negeri 01 Klagenserut, Kabupaten Madiun. 
+            Jarak sekolah dengan rumah hanya 10 menit, jadi sejak kelas 4 ketika sudah bisa naik sepeda saya berangkat sendiri. 
+            Di Madrasah, tidak hanya diajarkan Pelajaran umum saja akan tetapi juga diajarkan tentang ilmu ajaran agama Islam seperti membaca Al-Qur’an dan Hadist, mempelajari Sejarah Islam, belajar Bahasa Arab, belajar ilmu Fiqih dan juga tentunya belajar tentang Aqidah Akhlak. 
+            Waktu itu Angkatan saya berjumlah 40 orang yang dibagi menjadi 2 kelas yaitu kelas A dan B.
+        </p>
+    </div>
+    <div id="smp">
+        <h2>SMP</h2>
+        <p>Setelah saya lulus dari Madrasah, saya melanjutkan sekolah di SMPN 3 Madiun. 
+            Jarak dari rumah kesekolah cukup jauh yaitu 20 menit jika ditempuh menggunakan motor atau 30 menit jika menggunakan sepeda. 
+            Setiap hari saya diantar oleh kakak dan dijemput oleh Bapak. Saat SMP Angkatan saya begitu banyak hingga dibagi menjadi beberapa kelas yaitu kelas A sampai F. Waktu itu ada program kelas unggulan yang akan ditempatkan di kelas F. 
+            Sayang sekali saya tidak masuk kelas unggulan. Saat itu saya berada dikelas C.
+        </p>
+    </div>
+    <div id="smk">
+        <h2>SMK</h2>
+        <p>Setelah lulus dari SMP saya melanjutkan sekolah di SMK Negeri 3 Kimia Madiun. 
+            Jarak kesekolah kali ini lebih jauh lagi yaitu 30 menit jika ditempuh menggunakan motor. Karena belum mempunyai SIM, saya masih diantar jemput. 
+            Bedanya berangkat diantar oleh Bapak dan Pulang dengan kakak. Karena kakak juga bekerja di SMK N 3 KIMIA Madiun sebagai staff TU. Jadi dulu sering pulang malam kalua kakak lembur. Dari 6 jurusan yang ada saya memilih untuk mendaftar di jurusan KIMIA INDUSTRI. 
+            Saya belajar banyak hal karena 70% pembelajaran disini adalah praktikum. Setiap minggu kami bisa melakukan 2-3 kali praktikum. Disini masuknya pukul setengah 7 pagi jadi jam 6 sudah berangkat. Walaupun melelahkan namun sangat menyenangkan.
+        </p>
+    </div>
+</body>
+</html>
